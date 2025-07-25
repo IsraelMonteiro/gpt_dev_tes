@@ -3,7 +3,10 @@ name = "gpt-dev-test"
 version = "0.1.0"
 description = "Projeto de testes com ChatGPT, VSCode, GitHub e Poetry"
 authors = ["Israel Monteiro <israel.santosmonteiro@gmail.com>"]
-packages = [{ include = "src" }]
+packages = [
+    { include = "src" },
+    { include = "scripts" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
