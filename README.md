@@ -6,3 +6,4 @@ Projeto de demonstração para testar integração entre ChatGPT, VSCode e GitHu
 
 ```bash
 poetry install
+```
